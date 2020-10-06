@@ -1,6 +1,6 @@
 ///////////////////////// Class Person //////////////////////////////////
 
-export class Person{
+export class Person {
     constructor(id,name){
         this.id=id;
         this.name=name;
@@ -28,6 +28,7 @@ export class Student extends Person{
         super(id,name);
         this.average=average;
     }
+    
     setAverage(average){
         this.average=average;
     }
@@ -54,3 +55,4 @@ export class Teatcher extends Person{
        console.log('The Teatcher ID: '+this.getId+', Name: '+this.getName+', Salary: '+this.salary);
    }
 }
+////////////////////////////// Abstract Class And implementation /////////////////////////////////
